@@ -1,0 +1,213 @@
+@charset "utf-8";
+@import url(http://fonts.googleapis.com/css?family=Titan+One);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+
+body {
+	/*background: #1b1e24;
+  background-image:-webkit-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+	background-image:-moz-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+  background-image:-o-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+	background-image:-ms-linear-gradient(right,#1b1e24,#1b1e24 50%,#1b1e24);
+	background-image:linear-gradient(to left,#1b1e24,#1b1e24 50%,#1b1e24);*/
+  /*text-align: center;
+	/*font-family: Arial, sans-serif;
+	font-size: 14px;*/
+	line-height: 1.5em;
+}
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+input {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	-webkit-appearance: none;
+}
+
+.Registro {
+	margin: 25px auto;
+	width: 282px;        
+}
+
+.Registro span {
+	color: hsl(5, 50%, 57%);
+	display: block;
+	height: 48px;
+	line-height: 48px;
+	position: absolute;
+	text-align: center;
+	width: 36px;
+}
+
+.Registro input {
+	border: none;
+	height: 48px;
+	outline: none;
+}
+
+.Registro input[type="text"]{
+	background-color: #fff;
+	border-top: 2px solid #2c90c6;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+	color: #363636;
+	padding-left: 36px;
+        margin-bottom: 10px;
+	width: 254px;
+}
+
+.Registro textarea {
+    
+    background-color: #fff;
+	border-top: 2px solid #2c90c6;
+	border-right: 1px solid #000;
+	border-left: 1px solid #000;
+	border-radius: 5px 5px 0 0;
+    	-moz-border-radius: 5px 5px 0 0;
+	-webkit-border-radius: 5px 5px 0 0;
+  -o-border-radius: 5px 5px 0 0;
+  -ms-border-radius: 5px 5px 0 0;
+
+    color: #363636;
+    padding-left: 36px;
+    width: 254px;
+    height: 100px;
+    margin-bottom: 10px;
+    
+}
+.Registro input[type="password"] {
+	background-color: #fff;
+	border-top: 2px solid #2c90c6;
+	border-right: 1px solid #000;
+	border-bottom: 2px solid #2c90c6;
+	border-left: 1px solid #000;
+	border-radius: 0 0 5px 5px;
+	-moz-border-radius: 0 0 5px 5px;
+	-webkit-border-radius: 0 0 5px 5px;
+  -o-border-radius: 0 0 5px 5px;
+  -ms-border-radius: 0 0 5px 5px;
+	color: #363636;
+	margin-bottom: 20px;
+	padding-left: 36px;
+	width: 204px;
+}
+.Registro img {
+    margin-top: 10px;
+    width: 30px;
+    height:30px;
+}
+.Registro input[type="submit"],input[type="reset"] {
+	/*background-color: #2c90c6;*/
+	border: 1px solid #2c90c6;
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 48px;
+	text-align: center;
+	text-transform: uppercase;
+        margin-bottom: 20px;
+	/*width: 110px;
+        height: 50px;*/
+        width: 65px;
+        height: 50px;
+        
+}
+/*
+.Registro input[type="submit"],input[type="reset"]:hover {
+	background-color: #2c70c6;
+  box-shadow: 2px 2px 20px  #2c90c6, #fff 0 -1px 2px;
+}
+*/
+.texto {
+  color: #2c90c6; 
+  font-size: 40px; 
+  margin: 2% auto;
+  text-align: center;
+  font-family: 'Titan One';   
+  text-shadow: 1px 2px 1px  rgba(0,0,0,.5);
+  padding-top: 40px;
+}
+
+
+
+input#save{
+background:url(../img/save.png);
+color: transparent;
+padding-top: 5px;
+background-size: 53px 48px;
+background-repeat: no-repeat;
+border: 1px;
+}
+input#clear{
+background:url(../img/clear.png);
+color: transparent;
+padding-right: 2px;
+margin-right: 60px;
+background-size: 45px 40px;
+background-repeat: no-repeat;
+border: 1px;
+}
+
+#back{
+padding-left: 90px;
+}
+
+input#update{
+background:url(../img/update.png);
+color: transparent;
+padding-right: 2px;
+background-size: 45px 40px;
+background-repeat: no-repeat;
+border: 1px;
+}
+
+input#delete{
+background:url(../img/delete.png);
+color: transparent;
+padding-right: 2px;
+background-size: 45px 40px;
+background-repeat: no-repeat;
+border: 1px;
+}
+
+
+.btn_window{    
+    width:350px;
+    height:150px; 
+    margin-top: 10px;
+    text-align: center;
+}
+.register {
+  	width: 350px;
+  	margin: 20px auto;
+  	padding: 10px;        
+  	border: 7px solid #72B372;
+  	border-radius: 10px;
+  	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #444;
+  	background-color:  #F0F0F0;
+  	box-shadow: 0 0 20px 0 #000000;
+        height: 300px;
+        margin-top: 100px;
+        
+}
+h3 {
+	  	margin: 0 15px 20px;
+	  	border-bottom: 1px solid #72B372;                
+	  	padding: 5px 10px 5px 0;
+	  	font-size: 1.4em;
+    }
